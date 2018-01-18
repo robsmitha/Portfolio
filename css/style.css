@@ -1,0 +1,103 @@
+/*!
+ * Start Bootstrap - Modern Business (https://startbootstrap.com/template-overviews/modern-business)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
+ */
+
+
+.white {
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+}
+.carousel-item {
+  height: auto;
+}
+.tile-title {
+  text-align: left;
+  font-size: 18px;
+  font-weight: bold;
+  top: 10px;
+  left: 10px;
+  position: absolute;
+  width: 100%;
+}
+.tile-footer {
+  text-align: right;
+  font-size: 18px;
+  font-weight: bold;
+  bottom: 10px;
+  right:10px;
+  position: absolute;
+  width: 100%;
+}
+.tile{
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size:  cover;
+  background-color: #343a40!important;
+  min-height: 150px !important;
+  min-width: 150px !important;
+  margin-bottom: 5px;
+  border-radius: 0;
+  opacity: .95;
+  color: white;
+  opacity: .95;
+  -webkit-box-shadow:0 8px 17px 0 rgba(0,0,0,.2),0 6px 20px 0 rgba(0,0,0,.19);
+  box-shadow:0 8px 17px 0 rgba(0,0,0,.2),0 6px 20px 0 rgba(0,0,0,.19);
+}
+.tile:hover {
+  -webkit-transform: scale(1.01);
+  -ms-transform: scale(1.01);
+  transform: scale(1.01);
+  opacity: 1;
+}
+/* Content-Wrapper Styles to Keep Footer at bottom */
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  position: relative;
+  margin: 0;
+  padding-top: 40px;
+  min-height: 100%;
+  padding-bottom: 155px !important;
+}
+
+.content-wrapper {
+  margin: 0 auto;
+}
+/* Footer Styles */
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: center;
+  opacity: .95;
+  background-color: transparent;
+}
+
+.carousel-item {
+  height: 65vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
